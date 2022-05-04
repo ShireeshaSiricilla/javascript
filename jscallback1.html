@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //callback function
+        function greet(name, myFunction){
+            document.write('hello world');
+            
+         
+            myFunction(name);
+        }
+        
+        function sayName(name){
+            document.write('hello' + ' ' + name);
+
+        }
+        //calling the function after 2 seconds
+        setTimeout(greet,5000,'john',sayName);
+    </script>
+</body>
+</html>

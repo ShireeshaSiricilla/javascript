@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="disDate"></p>
+    <p id="disDate1"></p>
+    <p id="disDate2"></p>
+    <p id="disDate3"></p>
+    <p id="disDate4"></p>
+    <p id="disDate5"></p>
+    <p id="disDate6"></p>
+    <p id="disDate7"></p>
+    <p id="disDate8"></p>
+    <p id="disDate9"></p>
+
+
+    <script>
+        let date1=new Date();
+        let date2=new Date(2022,03,28,14,28,34,105);
+        let date3=new Date(2022,02);
+        let date4=new Date(10000000);
+        let date5=new Date(1648490000000);
+        let date6=new Date();
+        let date7=new Date();
+        let date8=new Date();
+        let date9=new Date();
+        let date10=new Date();
+
+
+        document.getElementById("disDate").innerHTML=date1;
+        document.getElementById("disDate1").innerHTML=date2;
+        document.getElementById("disDate2").innerHTML=date3;
+        document.getElementById("disDate3").innerHTML=date4;
+        document.getElementById("disDate4").innerHTML=date5;
+        document.getElementById("disDate5").innerHTML=date6.getFullYear();
+        document.getElementById("disDate6").innerHTML=date7.setDate(27);
+        document.getElementById("disDate7").innerHTML=date8.setFullYear(2025);
+        document.getElementById("disDate8").innerHTML=date9.getTimezoneOffset();
+        document.getElementById("disDate9").innerHTML=date10.getHours();
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

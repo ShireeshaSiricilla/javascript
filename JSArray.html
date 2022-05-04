@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="arrDisplay"></p>
+    <p id="arrDisplay1"></p>
+
+    <p id="arrDisplay2"></p>
+    <p id="arrDisplay3"></p>
+    <script>
+        const trainees=["shirisha","Arya","Shivani","sejal","sruthi",20000];
+
+        const FrontendTrainees=[];
+        FrontendTrainees[0]="prudvi";
+        FrontendTrainees[1]="sachin";
+        FrontendTrainees[2]="monika";
+
+        const Arrobj=new Array("shirisha","hyderabad");
+       const TraineeMarks={TraineeName:"praveen", week1:25,week2:28,week3:26}
+
+         document.getElementById("arrDisplay").innerHTML=trainees.toString();
+        document.getElementById("arrDisplay1").innerHTML=FrontendTrainees;
+          document.getElementById("arrDisplay2").innerHTML=Arrobj;
+          document.getElementById("arrDisplay3").innerHTML=TraineeMarks.TraineeName+"<br>"+ TraineeMarks.week1 +"<br>"+ TraineeMarks.week2 +"<br>"+TraineeMarks.week3;
+   
+   
+   
+   </script>
+    
+</body>
+</html>
